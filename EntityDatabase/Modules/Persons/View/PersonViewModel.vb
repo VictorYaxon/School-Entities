@@ -11,11 +11,11 @@ Namespace Modules.Persons.ViewModel
         Private _persons As ObservableCollection(Of Person)
         Private dataAccess As IPersonsService
 
-        Public Property persons As ObservableCollection(Of Person)
+        Public Property person As ObservableCollection(Of Person)
             Get
                 Return Me._persons
             End Get
-            Set(value As ObservableCollection(Of Person)
+            Set(value As ObservableCollection(Of Person))
                 Me._persons = value
                 OnPropertyChanged("persons")
             End Set

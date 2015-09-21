@@ -10,7 +10,7 @@ Namespace Modules.OfficeAssignmets.ViewModel
         Private _OfficeAssignmets As ObservableCollection(Of OfficeAssignment)
         Private dataAccess As IOfficeAssignmentService
 
-        Public Property OfficeAssignmets As ObservableCollection(Of OfficeAssignment)
+        Public Property OfficeAssignments As ObservableCollection(Of OfficeAssignment)
             Get
                 Return Me._OfficeAssignmets
             End Get

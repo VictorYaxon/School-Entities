@@ -5,9 +5,9 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              mc:Ignorable="d" 
              d:DesignHeight="350" d:DesignWidth="569">
-    <Grid Name="MainGrid" Margin="0,0,-70,0">
+    <Grid Name="MainGrid" Margin="0,0,10,22">
         <DataGrid HorizontalAlignment="Left" Margin="25,30,0,0" VerticalAlignment="Top"
-                  ItemsSource="{Binding StudentGrade}" Height="284" Width="512"
+                  ItemsSource="{Binding StudentGrades}" Height="284" Width="512"
                   AutoGenerateColumns="false" RowDetailsVisibilityMode="VisibleWhenSelected">
             <DataGrid.Columns>
                 <DataGridTextColumn x:Name="EnrollementID" Binding="{Binding Path=EnrollementID}" Header="EnrollementID" Width="SizeToHeader"/>

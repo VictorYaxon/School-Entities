@@ -7,7 +7,7 @@
              d:DesignHeight="350" d:DesignWidth="569">
     <Grid Name="MainGrid" Margin="0,0,-70,0">
         <DataGrid HorizontalAlignment="Left" Margin="25,30,0,0" VerticalAlignment="Top"
-                  ItemsSource="{Binding OnsiteCourse}" Height="284" Width="512"
+                  ItemsSource="{Binding OnsiteCourses}" Height="284" Width="512"
                   AutoGenerateColumns="false" RowDetailsVisibilityMode="VisibleWhenSelected">
             <DataGrid.Columns>
                 <DataGridTextColumn x:Name="CourseID" Binding="{Binding Path=CourseID}" Header="CourseID" Width="SizeToHeader"/>

@@ -4,7 +4,6 @@ Namespace BusinessLogic.Services.Implementations
     Public Class OfficeAssignmentService
         Implements IOfficeAssignmentService
 
-
         Public Function GetAllOfficeAssignment() As IQueryable(Of OfficeAssignment) Implements IOfficeAssignmentService.GetAllOfficeAssignment
             Return DataContext.DBEntities.OfficeAssignments
         End Function
