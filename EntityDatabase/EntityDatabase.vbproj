@@ -153,11 +153,11 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Modules\OnlineCourses\ViewModel\OnlineCoursesList.xaml">
+    <Page Include="Modules\OnlineCourses\View\OnlineCoursesList.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Modules\OnsiteCourses\ViewModel\OnsiteCourseList.xaml">
+    <Page Include="Modules\OnsiteCourses\View\OnsiteCourseList.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -165,7 +165,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Modules\StudentGrades\ViewModel\StudentGradeList.xaml">
+    <Page Include="Modules\StudentGrades\View\StudentGradesList.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -202,22 +202,22 @@
       <DependentUpon>OfficeAssignmentsList.xaml</DependentUpon>
     </Compile>
     <Compile Include="Modules\OfficeAssignmets\View\OfficeAssignmentsViewModel.vb" />
-    <Compile Include="Modules\OnlineCourses\ViewModel\OnlineCoursesList.xaml.vb">
+    <Compile Include="Modules\OnlineCourses\View\OnlineCoursesList.xaml.vb">
       <DependentUpon>OnlineCoursesList.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Modules\OnlineCourses\View\OnlineCourseViewModel.vb" />
-    <Compile Include="Modules\OnsiteCourses\ViewModel\OnsiteCourseList.xaml.vb">
+    <Compile Include="Modules\OnlineCourses\ViewModel\OnlineCourseViewModel.vb" />
+    <Compile Include="Modules\OnsiteCourses\View\OnsiteCourseList.xaml.vb">
       <DependentUpon>OnsiteCourseList.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Modules\OnsiteCourses\View\OnsiteCourseViewModel.vb" />
+    <Compile Include="Modules\OnsiteCourses\ViewModel\OnsiteCourseViewModel.vb" />
     <Compile Include="Modules\Persons\ViewModel\PersonsList.xaml.vb">
       <DependentUpon>PersonsList.xaml</DependentUpon>
     </Compile>
     <Compile Include="Modules\Persons\View\PersonViewModel.vb" />
-    <Compile Include="Modules\StudentGrades\ViewModel\StudentGradeList.xaml.vb">
-      <DependentUpon>StudentGradeList.xaml</DependentUpon>
+    <Compile Include="Modules\StudentGrades\View\StudentGradesList.xaml.vb">
+      <DependentUpon>StudentGradesList.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Modules\StudentGrades\View\StudentGradeViewModel.vb" />
+    <Compile Include="Modules\StudentGrades\ViewModel\StudentGradesViewModel.vb" />
     <Compile Include="My Project\AssemblyInfo.vb">
       <SubType>Code</SubType>
     </Compile>

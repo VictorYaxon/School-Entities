@@ -8,6 +8,7 @@
     xmlns:OnsiteCourses="clr-namespace:Modules.OnsiteCourses.View"
     xmlns:Persons="clr-namespace:Modules.Persons.View"
     xmlns:StudentGrade="clr-namespace:Modules.StudentGrades.View"
+        
     Title="MainWindow" Height="377" Width="700">
     <Grid>
         <Grid.ColumnDefinitions>
@@ -39,17 +40,9 @@
                     <OnsiteCourses:OnsiteCourseList x:Name="OnsiteCoursesUserControl" Margin="67,0,55,0"/>
                 </Grid>
             </TabItem>
-            <TabItem Header="Persons">
-                <Grid Background="#FFE5E5E5">
-                    <Persons:PersonsList x:Name="personsUserControl" Margin="30,0,42,0" />
-                </Grid>
-            </TabItem>
             <TabItem Header="StudentGrades">
                 <Grid Background="#FFE5E5E5">
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition/>
-                    </Grid.ColumnDefinitions>
-                    <StudentGrade:StudentGradeList x:Name="StudentGradeUserControl" Margin="67,0,78,0"/>
+                    <StudentGrade:StudentGradesList x:Name="StudentGradesUserControl"/>
                 </Grid>
             </TabItem>
         </TabControl>
