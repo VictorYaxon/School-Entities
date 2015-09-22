@@ -16,33 +16,57 @@
         </Grid.ColumnDefinitions>
         <TabControl HorizontalAlignment="Left" Height="347" VerticalAlignment="Top" Width="700">
             <TabItem Header="Departaments">
-                <Grid Background="#FFE5E5E5">
+                <Grid>
+                    <Grid.Background>
+                        <ImageBrush ImageSource="fondopantalla/Fondos-de-Pantalla-Animados-con-Burbujas-5.jpg"/>
+                    </Grid.Background>
                     <departments:DepartmentsList x:Name="DepartmenstUserControl" Height="347" Width="560" Margin="-10,-20,0,-12"/>
                 </Grid>
             </TabItem>
             <TabItem Header="Courses">
-                <Grid Background="#FFE5E5E5">
+                <TabItem.Background>
+                    <ImageBrush/>
+                </TabItem.Background>
+                <Grid>
+                    <Grid.Background>
+                        <ImageBrush ImageSource="fondopantalla/Fondos-de-Pantalla-Animados-con-Burbujas-5.jpg"/>
+                    </Grid.Background>
                     <courses:CoursesList x:Name="CoursesUserControl" Margin="60,-10,69,10"/>
                 </Grid>
             </TabItem>
             <TabItem Header="OfficeAssignments">
-                <Grid Background="#FFE5E5E5">
+                <Grid>
+                    <Grid.Background>
+                        <ImageBrush ImageSource="fondopantalla/Fondos-de-Pantalla-Animados-con-Burbujas-5.jpg"/>
+                    </Grid.Background>
                     <OfficeAssignments:OfficeAssignmentsList x:Name="OfficeAssignmentsUserControl" Margin="85,0,32,-31"/>
                 </Grid>
             </TabItem>
             <TabItem Header="OnlineCourses">
-                <Grid Background="#FFE5E5E5">
+                <Grid>
+                    <Grid.Background>
+                        <ImageBrush ImageSource="fondopantalla/Fondos-de-Pantalla-Animados-con-Burbujas-5.jpg"/>
+                    </Grid.Background>
                     <OnlineCourses:OnlineCoursesList x:Name="OnlineCoursesUserControl" Margin="67,-10,55,10"/>
                 </Grid>
             </TabItem>
             <TabItem Header="OnsiteCourses">
-                <Grid Background="#FFE5E5E5">
-                    <OnsiteCourses:OnsiteCourseList x:Name="OnsiteCoursesUserControl" Margin="67,0,55,0"/>
+                <TabItem.Background>
+                    <ImageBrush />
+                </TabItem.Background>
+                <Grid>
+                    <Grid.Background>
+                        <ImageBrush ImageSource="fondopantalla/Fondos-de-Pantalla-Animados-con-Burbujas-5.jpg"/>
+                    </Grid.Background>
+                    <OnsiteCourses:OnsiteCourseList x:Name="OnsiteCoursesUserControl" Margin="37,-10,85,10"/>
                 </Grid>
             </TabItem>
             <TabItem Header="StudentGrades">
-                <Grid Background="#FFE5E5E5">
-                    <StudentGrade:StudentGradesList x:Name="StudentGradesUserControl"/>
+                <Grid>
+                    <Grid.Background>
+                        <ImageBrush ImageSource="fondopantalla/Fondos-de-Pantalla-Animados-con-Burbujas-5.jpg"/>
+                    </Grid.Background>
+                    <StudentGrade:StudentGradesList x:Name="StudentGradesUserControl" Margin="76,-10,-76,10"/>
                 </Grid>
             </TabItem>
         </TabControl>
