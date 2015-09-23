@@ -27,7 +27,7 @@ Namespace Modules.StudentGrades.ViewModel
 
         Sub New()
             Me._studentGrades = New ObservableCollection(Of StudentGrade)
-            ServiceLocator.RegisterService(Of IStudentGradeService)(New StudentGrade)
+            ServiceLocator.RegisterService(Of IStudentGradeService)(New StudentGradeService)
             Me.dataAccess = GetService(Of IStudentGradeService)()
 
             For Each element In Me.GetAllStudentGrades

@@ -161,7 +161,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Modules\Persons\ViewModel\PersonsList.xaml">
+    <Page Include="Modules\Persons\View\PersonsList.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -210,10 +210,10 @@
       <DependentUpon>OnsiteCourseList.xaml</DependentUpon>
     </Compile>
     <Compile Include="Modules\OnsiteCourses\ViewModel\OnsiteCourseViewModel.vb" />
-    <Compile Include="Modules\Persons\ViewModel\PersonsList.xaml.vb">
+    <Compile Include="Modules\Persons\View\PersonsList.xaml.vb">
       <DependentUpon>PersonsList.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Modules\Persons\View\PersonViewModel.vb" />
+    <Compile Include="Modules\Persons\ViewModel\PersonViewModel.vb" />
     <Compile Include="Modules\StudentGrades\View\StudentGradesList.xaml.vb">
       <DependentUpon>StudentGradesList.xaml</DependentUpon>
     </Compile>

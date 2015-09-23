@@ -17,7 +17,9 @@ Class MainWindow
         Me.OfficeAssignmentsUserControl.MainGrid.DataContext = New OfficeAssignmetsViewModel()
         Me.OnlineCoursesUserControl.MainGrid.DataContext = New OnlineCourseViewModel()
         Me.OnsiteCoursesUserControl.MainGrid.DataContext = New OnsiteCourseViewModel()
-        'Me.StudentGradesUserControl.MainGrid.DataContext = New StudentGradesViewModel()
+        Me.StudentGradesUserControl.MainGrid.DataContext = New StudentGradesViewModel()
+        Me.PersonsUserControl.MainGrid.DataContext = New PersonViewModel()
+
 
 
     End Sub

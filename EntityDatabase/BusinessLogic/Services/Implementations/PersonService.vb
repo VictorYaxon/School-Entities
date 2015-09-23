@@ -5,7 +5,7 @@ Namespace BusinessLogic.Services.Implementations
     Public Class PersonService
         Implements IPersonsService
 
-        Public Function GetAllpersons() As IQueryable(Of Person) Implements IPersonsService.GetAllpersons
+        Public Function GetAllperson() As IQueryable(Of Person) Implements IPersonsService.GetAllperson
             Return DataContext.DBEntities.People
         End Function
     End Class
