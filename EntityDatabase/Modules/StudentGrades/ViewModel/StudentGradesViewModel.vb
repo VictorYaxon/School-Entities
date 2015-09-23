@@ -26,13 +26,10 @@ Namespace Modules.StudentGrades.ViewModel
         End Function
 
         Sub New()
-            'Initialize property variable of courses
             Me._studentGrades = New ObservableCollection(Of StudentGrade)
-            ' Register service with ServiceLocator
             ServiceLocator.RegisterService(Of IStudentGradeService)(New StudentGrade)
-            ' Initialize dataAccess from service
             Me.dataAccess = GetService(Of IStudentGradeService)()
-            ' Populate courses property variable 
+
             For Each element In Me.GetAllStudentGrades
                 Me._studentGrades.Add(element)
             Next

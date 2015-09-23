@@ -273,5 +273,8 @@
   <ItemGroup>
     <Resource Include="FondoPantalla\Fondos-de-Pantalla-Animados-con-Burbujas-5.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="FondoPantalla\icon.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

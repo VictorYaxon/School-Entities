@@ -9,7 +9,7 @@
     xmlns:Persons="clr-namespace:Modules.Persons.View"
     xmlns:StudentGrade="clr-namespace:Modules.StudentGrades.View"
         
-    Title="MainWindow" Height="377" Width="700">
+    Title="******** School ********" Height="377" Width="700" ResizeMode="NoResize" Icon="fondopantalla/icon.png" WindowStartupLocation="CenterScreen">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
@@ -24,9 +24,6 @@
                 </Grid>
             </TabItem>
             <TabItem Header="Courses">
-                <TabItem.Background>
-                    <ImageBrush/>
-                </TabItem.Background>
                 <Grid>
                     <Grid.Background>
                         <ImageBrush ImageSource="fondopantalla/Fondos-de-Pantalla-Animados-con-Burbujas-5.jpg"/>
@@ -51,9 +48,6 @@
                 </Grid>
             </TabItem>
             <TabItem Header="OnsiteCourses">
-                <TabItem.Background>
-                    <ImageBrush />
-                </TabItem.Background>
                 <Grid>
                     <Grid.Background>
                         <ImageBrush ImageSource="fondopantalla/Fondos-de-Pantalla-Animados-con-Burbujas-5.jpg"/>
